@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="consultasStyle.css">
+    <title>Consultas</title>
+</head>
+<body>
+    <header>
+        <div class="cabeza">
+            <img class="imagen-cabeza" src="/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/Inicio/2010.i121.044_isometric_gastroenterology_set-01-03.jpg" alt="logo-encabezado-medicamentos">
+        
+            <nav>
+                <ul>
+                    <li><a href="/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/Inicio/Inicio.html">Inicio</a></li>
+                    <li><a href="/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/paginainformativa/ElFarma.html">Quienes Somos?</a></li>
+                    <li><a href="/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/paginaConsultas/consultasPag.html">Realiza la consulta</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h2 class="nombre">Consulta al Farmacéutico</h2>
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <legend>Persona que realiza la consulta:</legend>
+
+            <label for="paciente"><input type="radio" value="paciente" id="paciente" name="ocupacion" required>Paciente</label>
+            
+            <label for="profesional"><input type="radio" value="profesional" id="profesional" name="ocupacion" required>Profesional</label>
+        
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(+506) XXXX-XXXX">
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <fieldset>
+                <legend>Elige la forma en que le gustaria ser contactado:</legend>
+
+                <label for="email"><input type="radio" value="email" id="email" name="eleccion" required>Email(correo)</label>
+                
+                <label for="whatsapp"><input type="radio" value="whatsapp" id="whatsapp" name="eleccion" required checked>WhatsApp</label>
+            </fieldset>
+            <fieldset>
+                <legend>¿Desea ser atendido en el programa de Atencion Farmaceutica?</legend>
+                <select>
+                    <option value="">Si</option>
+                    <option value="">No</option>
+                </select>  
+            </fieldset>
+            
+            <input type="submit" value="Enviar Consulta al Farmaceutico" class="enviar">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dias</th>
+                        <th>Horario de revision de Solicitudes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Martes</td>
+                        <td>8:00pm - 10:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>8:00pm - 10:00pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+    <footer class="footer">
+        <div>
+            <img id="imagen-footer" src="/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/Inicio/2010.i121.044_isometric_gastroenterology_set-01-03.jpg" alt="logo-medicamentos">
+            <p class="copyright">&copy Copyright El Farmaceutico Responde 2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

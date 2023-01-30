@@ -1,0 +1,61 @@
+header{
+    background-color: transparent;
+    padding: 20px 0;
+}
+.cabeza{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.imagen-cabeza{
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+body{
+    background-image: url("/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/Inicio/minimal-medicinal-pills-arrangement.jpg");
+    
+}
+.nombre{
+    text-align: center;
+    font-size: 34px;
+    border: solid;
+    border-style: outset;
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+#imagen-footer{
+    margin-top: 30px;
+    width: 20%;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+.copyright{
+    font-size: 12px;
+}
