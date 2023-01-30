@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/paginaConsultas/Cartas.jpg");
+    background-image: url("./Cartas.jpg");
     background-size:cover; 
 }
 header{

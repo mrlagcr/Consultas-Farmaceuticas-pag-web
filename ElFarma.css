@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/paginainformativa/fondoFarma.jpg");
+    background-image: url("./minimal-medicinal-pills-arrangement.jpg");
     background-size:cover; 
     font-family: 'Work Sans', sans-serif;
 }

@@ -30,7 +30,7 @@ nav a{
     text-decoration: none;
 }
 body{
-    background-image: url("/Users/brian/Documents/GitHub/Alura/HTML y CSS Alura/Inicio/minimal-medicinal-pills-arrangement.jpg");
+    background-image: url("./minimal-medicinal-pills-arrangement.jpg");
     
 }
 .nombre{
